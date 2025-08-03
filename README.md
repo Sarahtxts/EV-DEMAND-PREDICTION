@@ -40,5 +40,50 @@ pip install pandas numpy scikit-learn matplotlib seaborn
 
 ## How to Use
 1. Clone the repository:
+   git clone https://github.com/Sarahtxts/EV-DEMAND-PREDICTION.git
+   cd EV-DEMAND-PREDICTION
+  
+2. Open the Jupyter notebook:
+   jupyter notebook ev.ipynb
+
+   
+3. Run the notebook cells sequentially to:
+   - Load and understand the dataset (`EV_dataset.csv`)
+   - Explore and preprocess the data
+   - Train the forecasting model
+   - Save the model into a `.pkl` file
+   - Use the model to make predictions on future EV demand
+
+---
+
+## Model Usage
+
+You can load the saved model `forecasting_ev_model.pkl` in your Python scripts to predict EV demand without retraining:
+import pickle
+
+with open('forecasting_ev_model.pkl', 'rb') as file:
+model = pickle.load(file)
+
+
+---
+
+## Contributions
+
+Contributions are welcome! If you would like to contribute improvements or new features, please fork the repository and submit a pull request.
+
+---
+
+## License
+
+This project currently has no license specified.
+
+---
+
+## Contact
+
+For questions, you can open an issue in this repository or contact the author.
+
+
+
 
 
