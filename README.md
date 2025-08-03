@@ -30,7 +30,7 @@ The project aims to predict the demand for electric vehicles by analyzing past d
   - statsmodels / prophet (depending on the forecasting method used)
   - joblib or pickle (for saving/loading models)
 
-#You can install the required packages using pip:
+# You can install the required packages using pip:
 pip install pandas numpy scikit-learn matplotlib seaborn
 
 
